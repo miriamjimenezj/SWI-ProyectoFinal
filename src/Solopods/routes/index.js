@@ -26,4 +26,8 @@ router.get('/collabs', (req, res) => {
   res.render('collabs', { title: 'Solopods' });
 });
 
+router.get('/register', (req, res) => {
+  res.render('register', { title: 'Solopods' });
+});
+
 module.exports = router;
