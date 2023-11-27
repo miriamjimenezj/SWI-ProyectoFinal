@@ -2,16 +2,15 @@ $(document).ready(function() {
   $('#registerForm').submit(function(event) {
     event.preventDefault();
 
-    // Validar los campos aquí antes de enviar el formulario
     if (validateForm()) {
       // Enviar formulario si es válido
       alert('Registro exitoso');
-      // Aquí puedes agregar la lógica para enviar los datos al servidor con Ajax si lo necesitas
+      // Envio datos al servidor
     }
   });
 
   function validateForm() {
-    // Realizar validación de campos aquí
+    //Validación de campos aquí
     const nameRegex = /^[a-zA-Z]+\s[a-zA-Z]+$/;
     const emailRegex = /^\S+@\S+\.\S+$/;
     const phoneRegex = /^\d{9}$/;
