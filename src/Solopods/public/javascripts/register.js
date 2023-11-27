@@ -1,5 +1,3 @@
-// public/javascripts/register.js
-
 $(document).ready(function() {
   $('#registerForm').submit(function(event) {
     event.preventDefault();
@@ -10,11 +8,6 @@ $(document).ready(function() {
       alert('Registro exitoso');
       // Aquí puedes agregar la lógica para enviar los datos al servidor con Ajax si lo necesitas
     }
-  });
-
-  $('#cancelButton').click(function() {
-    // Redirigir o realizar otras acciones al cancelar
-    alert('Registro cancelado');
   });
 
   function validateForm() {
