@@ -3,10 +3,11 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .footer {
+    /*position: fixed;*/
     background-color: #878787; 
     color: #fff; 
     padding: 20px 0;
@@ -17,7 +18,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin-top: auto;
   }
   
   .footerLogo img {
