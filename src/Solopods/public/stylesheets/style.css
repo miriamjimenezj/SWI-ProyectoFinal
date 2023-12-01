@@ -1,10 +1,32 @@
-body {
+body, html{
   font: 14px;
   font-family: "League Spartan";
+  height: 900px;
+  margin: 0;
 }
 
 a {
   color: #00B7FF;
+}
+
+/*-------------------------------------------*/
+
+#carouselCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25%;
+  width: 50%;
+  height: 50%;
+  z-index: -1; /* Coloca el canvas detrás del contenido */
+}
+
+/* Estilo opcional para el contenido en la parte superior del canvas */
+#content {
+  position: relative;
+  z-index: 1; /* Asegura que el contenido esté encima del canvas */
+  padding: 20px;
+  color: #fff;
 }
 
 /*-------------------------------------------*/
