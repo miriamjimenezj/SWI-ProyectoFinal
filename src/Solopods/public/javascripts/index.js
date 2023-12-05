@@ -5,9 +5,9 @@ $(document).ready(function() {
     const ctx = canvas.getContext('2d');
   
     const images = [
-      '/images/dosVapesAgua.jpeg',
-      '/images/dosVapesPiscina.jpeg',
-      '/images/fondoEscritorio.jpeg'
+      '/images/vbon8000rosa.jpeg',
+      '/images/vbon8000verde.jpeg',
+      '/images/vbon8000negro.jpeg'
     ];
   
     let currentIndex = 0;
